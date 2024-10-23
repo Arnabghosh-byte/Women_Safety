@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.rmdssoe.sos"
+    namespace = "com.wSafety.Arnab07"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.rmdssoe.sos"
+        applicationId = "com.wSafety.Arnab07"
         minSdk = 29
         targetSdk = 33
         versionCode = 1

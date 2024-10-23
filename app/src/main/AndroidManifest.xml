@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rmdssoe.sos"
+
 
     tools:node="replace">
 
@@ -30,21 +30,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RMDSSOESOS">
+        android:theme="@style/Theme.wSafety">
 
         <!-- register the receiver -->
         <receiver
-            android:name=".ShakeServices.ReactivateService"
+            android:name="com.wSafety.Arnab07.ShakeServices.ReactivateService"
             android:enabled="true"
             android:exported="true"/>
 
         <!-- register the service -->
         <service
-            android:name=".ShakeServices.SensorService"
+            android:name="com.wSafety.Arnab07.ShakeServices.SensorService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".MainActivity"
+        <activity android:name="com.wSafety.Arnab07.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
